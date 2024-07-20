@@ -1,0 +1,80 @@
+
+  
+
+.card{
+  display: flex;
+  background-color: antiquewhite;
+  border: 1px solid rgba(124, 124, 124, 0.318);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(139, 139, 139, 0.397);
+  padding: 40px;
+  padding-bottom: 5px;
+  margin: 10px;
+  text-align: center;
+  max-width: 350px;
+  display: inline-block;
+  width: 350px;
+  height: 350px;
+  justify-content: space-around; 
+  margin-left: 40px;
+  margin-top: 30px;
+  
+}
+.card .card-image{
+ border-radius: 100px;
+ width: 200px;
+
+ 
+}
+.card-image:hover{
+  transform: scale(1.1);
+  transition: 0.1s;
+  
+  box-shadow: black 30px 30px 30px rgb;
+  animation-name: grow;
+  animation-duration: 1s;
+}
+@keyframes grow {
+  100%{transform: scale(2,2)}
+}
+.card .card-title{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 10px;
+  color: rgb(177, 109, 20);
+  margin-bottom: 5px;
+}
+.card-title:active{
+  color: blueviolet;
+}
+.card .card-text{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(75, 55, 29);
+  
+}
+.header{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+  background-color: antiquewhite;
+  color: rgb(89, 56, 7);
+  border-radius: 40px;
+  padding: 20px, 20px;
+}
+.card:hover{
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  background-color: rgb(236, 186, 120);
+  box-shadow: 10px 10px 10px rgba(40, 39, 39, 0.397);
+  cursor: pointer;
+}
+.card:active{
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  background-color: rgb(157, 125, 83);
+  box-shadow: 10px 10px 10px rgba(23, 22, 22, 0.199);
+  text-transform: uppercase;
+  cursor: pointer;
+}
